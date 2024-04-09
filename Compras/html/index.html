@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="menu-container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox"  id="menu">
+            <label for="menu"><img src="/img/menu.png" class="menu-icono" alt=""></label>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div>
+                <ul>
+                    <li class="sub-menu">
+                        <img src="/img/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium</h1>
+                                <div class="prices">
+                                    <p class="prices-1">$2500</p>
+                                    <p class="prices-2">$2000</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                                <div class="header-img">
+                                    <img src="/img/bg1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium</h1>
+                                <div class="prices">
+                                    <p class="prices-1">$2500</p>
+                                    <p class="prices-2">$1500</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                                <div class="header-img">
+                                    <img src="/img/bg2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Auriculares Premium</h1>
+                                <div class="prices">
+                                    <p class="prices-1">$3500</p>
+                                    <p class="prices-2">$2500</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                                <div class="header-img">
+                                    <img src="/img/bg3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+    </header>
+
+    <hr>
+
+    <section class="promos-container" id="lista-1">
+        <h2>Promociones</h2>
+        <div class="categorias">
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Promo 1</h3>
+                    <div class="prices">
+                        <p class="prices-1">$3500</p>
+                        <p class="Precio">$2500</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/img/ph1.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Promo 2</h3>
+                    <div class="prices">
+                        <p class="prices-1">$3000</p>
+                        <p class="Precio">$2000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/img/ph2.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Promo 3</h3>
+                    <div class="prices">
+                        <p class="prices-1">$4500</p>
+                        <p class="Precio">$3000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/img/ph3.png" alt="">
+                </div>
+            </div>
+            <div class="categoria">
+                <div class="categoria-1">
+                    <h3>Promo 4</h3>
+                    <div class="prices">
+                        <p class="prices-1">$7000</p>
+                        <p class="Precio">$5000</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categoria-img">
+                    <img src="/img/ph4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="productos-container" id="lista-2">
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambrimos Urbanista</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambrimos Negro</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$2000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Azul</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$3000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Rojos</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$5000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="productos-container" id="lista-3">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph1.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Urbanista</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$2500</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph2.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Negro</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$2000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="10">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph3.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Azul</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$3000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="11">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="/img/ph4.png" alt="">
+                        <div class="product-txt">
+                            <h3>Inalambricos Rojos</h3>
+                            <p>Calidad premium</p>
+                            <p class="precio">$5000</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="12">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <footer class="footer-container">
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <ul>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+                <li><a href="#">Lorem</a></li>
+            </ul>
+        </div>
+        <div class="link">
+            <h3>Lorem</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis voluptatibus ratione reprehenderit ipsum, quis praesentium laudantium quas culpa, nobis magni suscipit, debitis modi ut laborum? Ratione sit saepe eius.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>
